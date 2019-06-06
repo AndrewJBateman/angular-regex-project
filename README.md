@@ -25,9 +25,11 @@ This app highlights search text within a string. It renders HTML on the screen v
 
 ## Technologies
 
-* [Angular v7.0.0](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular CLI v8.0.1](https://cli.angular.io/).
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## Setup
 
@@ -72,18 +74,18 @@ export class AppComponent {
 
 ## Features
 
-* text that matches what is being searched for is highlighted. THe query is case-insensitive.
+* text that matches what is being searched for is highlighted. The query is case-insensitive.
 
 ## Status & To-Do List
 
-* Status: Tested and 100% working.
+* Status: Working.
 
 * To-Do: This could be used as a sand-box to try out other angular functionality. Regex could be expanded to search for numbers and highlight them in a different colour etc.
 
 ## Inspiration
 
-* [link to: "Highlight Text Within a String Using Angular and Regular Expressions", by Nic Raboy of X-Team.com](https://developer.telerik.com/topics/web-development/highlight-text-within-string-using-angular-regular-expressions/).
+* ["Highlight Text Within a String Using Angular and Regular Expressions", by Nic Raboy of X-Team.com](https://developer.telerik.com/topics/web-development/highlight-text-within-string-using-angular-regular-expressions/).
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
