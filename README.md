@@ -1,10 +1,10 @@
-# Angular Regex Project
+# :zap: Angular Regex Project
 
-This app highlights search text within a string. It renders HTML on the screen via a variable and manipulates that HTML based on a query, a regular expression and regex replace logic.
+* This app highlights search text within a string. It renders HTML on the screen via a variable and manipulates that HTML based on a query, a regular expression and regex replace logic.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
 * [General info](#general-info)
 * [Screenshots](#screenshots)
@@ -15,27 +15,25 @@ This app highlights search text within a string. It renders HTML on the screen v
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
+## :books: General info
 
 * A regular expression is "A sequence of characters that forms a search pattern, mainly for use in pattern-matching with strings, or string matching, i.e. “find and replace”-like operations."
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/highlight-text.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v8.0.0](https://angular.io/)
+* [Angular v8](https://angular.io/)
+* [Angular CLI v8](https://cli.angular.io/).
+* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
-* [Angular CLI v8.0.1](https://cli.angular.io/).
+## :floppy_disk: Setup
 
-* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Setup
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code Examples
+## :computer: Code Examples
 
 * app.component.ts file
 
@@ -72,20 +70,19 @@ export class AppComponent {
 
 ```
 
-## Features
+## :cool: Features
 
 * text that matches what is being searched for is highlighted. The query is case-insensitive.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
-
 * To-Do: This could be used as a sand-box to try out other angular functionality. Regex could be expanded to search for numbers and highlight them in a different colour etc.
 
-## Inspiration
+## :clap: Inspiration
 
 * ["Highlight Text Within a String Using Angular and Regular Expressions", by Nic Raboy of X-Team.com](https://developer.telerik.com/topics/web-development/highlight-text-within-string-using-angular-regular-expressions/).
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
