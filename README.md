@@ -6,14 +6,17 @@
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Angular Regex Project](#zap-angular-regex-project)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
@@ -25,26 +28,23 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v8](https://angular.io/)
-* [Angular CLI v8](https://cli.angular.io/).
+* [Angular v11](https://angular.io/)
+* [Angular CLI v11](https://cli.angular.io/).
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## :floppy_disk: Setup
 
-* Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Run `ng test` to run some simple Jasmin testson Karma.
+* Run `ng lint` to check syntax using TSLint. Note [TSLint will be replaced with ESLint](https://github.com/palantir/tslint/issues/4534)
+* Run `ng serve` for a dev server.
+* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## :computer: Code Examples
 
-* app.component.ts file
+* extract from `app.component.ts file`
 
 ```typescript
-import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
 export class AppComponent {
 
   private content: string;
@@ -67,7 +67,6 @@ export class AppComponent {
     });
   }
 }
-
 ```
 
 ## :cool: Features
@@ -76,7 +75,7 @@ export class AppComponent {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working. Passes Jasmine tests and linting
 * To-Do: This could be used as a sand-box to try out other angular functionality. Regex could be expanded to search for numbers and highlight them in a different colour etc.
 
 ## :clap: Inspiration
@@ -85,4 +84,4 @@ export class AppComponent {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
