@@ -17,7 +17,7 @@ export class AppComponent {
   }
 
   // if no text in query then just return
-  public highlight() {
+  public highlight(): string {
     if (!this.query) {
       return this.content;
     }
