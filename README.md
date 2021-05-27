@@ -1,9 +1,12 @@
 # :zap: Angular Regex Project
 
 * This app highlights search text within a string. It renders HTML on the screen via a variable and manipulates that HTML based on a query, a regular expression and regex replace logic.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
-
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-regex-project?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-regex-project?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-regex-project?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-regex-project?style=plastic)
 ## :page_facing_up: Table of contents
 
 * [:zap: Angular Regex Project](#zap-angular-regex-project)
@@ -28,8 +31,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
-* [Angular CLI v11](https://cli.angular.io/).
+* [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## :floppy_disk: Setup
@@ -56,7 +58,7 @@ export class AppComponent {
   }
 
   // if no text in query then just return
-  public highlight() {
+  public highlight(): string {
     if (!this.query) {
       return this.content;
     }
