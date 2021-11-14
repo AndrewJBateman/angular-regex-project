@@ -22,7 +22,6 @@ export class AppComponent {
     if (!this.query) {
       return this.content;
     }
-    console.log('query: ', this.query);
     /*The regular expression looks for all case insensitive occurrences of this.query.
     Take the matches and wrap them in HTML tags with the CSS class name that we created.*/
     return this.content.replace(new RegExp(this.query, 'gi'), (match) => {
