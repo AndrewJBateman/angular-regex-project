@@ -1,6 +1,6 @@
 # :zap: Angular Regex Project
 
-* This app highlights search text within a string. It renders HTML on the screen via a variable and manipulates that HTML based on a query, a regular expression and regex replace logic.
+* This app highlights search text within a string. It renders HTML on the screen via a variable and manipulates that HTML based on a query, a regular expression and REGEX replace logic.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-regex-project?style=plastic)
@@ -31,8 +31,8 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v12](https://angular.io/)
-* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular v13](https://angular.io/)
+* [Javascript Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 ## :floppy_disk: Setup
 
@@ -77,13 +77,17 @@ export class AppComponent {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working. Passes Jasmine tests and linting
+* Status: Working. Passes basic Jasmine tests
 * To-Do: This could be used as a sand-box to try out other angular functionality. Regex could be expanded to search for numbers and highlight them in a different colour etc.
 
 ## :clap: Inspiration
 
 * ["Highlight Text Within a String Using Angular and Regular Expressions", by Nic Raboy of X-Team.com](https://developer.telerik.com/topics/web-development/highlight-text-within-string-using-angular-regular-expressions/).
 
+## :file_folder: License
+
+* N/A
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
